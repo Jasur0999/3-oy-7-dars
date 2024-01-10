@@ -24,7 +24,7 @@
                     <a href="#">Resources</a>
                     <button class="btn-1">Sigin in</button>
                     <button class="btn-1">Sigin up</button>
-                    <button class="btn-img"><img src="./images/moon.png" alt=""></button>
+                    <button id="light-dark" class="btn-img"><img src="./images/moon.png" alt=""></button>
                 </div>
             </div>
         </div>
@@ -466,6 +466,14 @@
         </section>
     </footer>
 
+
+    <script>
+        let modeBtn = document.getElementById("light-dark");
+
+modeBtn.addEventListener("click", function () {
+  document.body.classList.toggle("dark");
+});
+    </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

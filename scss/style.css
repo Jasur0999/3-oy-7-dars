@@ -20,6 +20,17 @@ button {
   font-family: "Poppins", sans-serif;
 }
 
+.dark {
+  background: black;
+}
+.dark header .nav-box .nav-2 .btn-1 {
+  color: #000 !important;
+}
+
+.dark * {
+  color: white !important;
+}
+
 body header {
   font-style: normal;
   padding: 20px;
@@ -267,6 +278,9 @@ body .group .group-box button {
   background: #02897A;
   margin-top: 60px;
   margin-bottom: 150px;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 700;
 }
 body .group .group-box .group-1 {
   display: flex;

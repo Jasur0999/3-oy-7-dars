@@ -16,7 +16,28 @@ button{
     max-width: 1240px;
     margin: 0 auto;
     padding: 0 17px;
-    font-family: 'Poppins', sans-serif;}
+    font-family: 'Poppins', sans-serif;
+}
+
+.dark  {
+    background: black;
+
+    header{
+        .nav-box{
+            .nav-2{
+                .btn-1{
+                    color: #000 !important;
+
+                }
+            }
+        }
+    }
+  }
+  
+  .dark  * {
+    
+    color: white !important;
+  }
 
 body{
     header {
@@ -304,7 +325,9 @@ body{
                     background: #02897A;
                     margin-top: 60px;
                     margin-bottom: 150px;
-                    
+                    color: #FFF;
+                    font-size: 16px;
+                    font-weight: 700;
                 }
 
                 .group-1{
