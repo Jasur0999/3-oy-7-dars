@@ -597,5 +597,80 @@ body{
                 }
             }
         }
+
+        .footer-bott{
+            .pp{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 46px;
+            }
+            .footer-bott-box{
+                padding: 150px 0 46px 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .footer-2-1{
+                    margin-top: -59px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 40px;
+                    .footer-2-child{
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        gap: 30px;
+
+                    }
+                }
+                .footer-2-2{
+                    h3{
+                        color: #22343D;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 30px; 
+                        width: 280px;
+
+                    }
+                    p{
+                        color: #22343D;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 35px; 
+                    }
+                }
+                .footer-2-4{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 13px;
+                    h3{
+                        color: #22343D;
+                        font-size: 20px;
+                        font-weight: 500;
+                        line-height: 30px; 
+                        width: 280px;
+
+                    }
+                    p{
+                        width: 325px;
+                        height: 48px;
+                        border-radius: 4px;
+                        border: 1px solid #BCD0E5;
+                        background: #FFF;
+                    }
+                    button{
+                        width: 131px;
+                        height: 39px;
+                        border-radius: 4px;
+                        background: #02897A;
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
 }
 
