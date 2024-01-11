@@ -568,7 +568,6 @@ body .footer-bott .pp {
   justify-content: center;
   align-items: center;
   margin-bottom: 46px;
-  border: 2px solid rgb(152, 35, 41);
 }
 body .footer-bott a {
   border: 2px solid red;
@@ -632,4 +631,49 @@ body .footer-bott .footer-bott-box .footer-2-4 button {
   text-align: center;
   font-size: 16px;
   font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+  .apple-home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 1150px) {
+  .footer-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 1020px) {
+  .payme-home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-bott-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 850px) {
+  .group-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */

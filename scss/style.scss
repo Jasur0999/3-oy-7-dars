@@ -637,7 +637,6 @@ body {
       justify-content: center;
       align-items: center;
       margin-bottom: 46px;
-      border: 2px solid rgb(152, 35, 41);
     }
     a {
       border: 2px solid red;
@@ -661,6 +660,8 @@ body {
           gap: 30px;
         }
       }
+
+
       .footer-2-2 {
         h3 {
           color: #22343d;
@@ -707,4 +708,59 @@ body {
       }
     }
   }
+}
+
+
+@media (max-width: 1200px){
+    .apple-home{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1150px){
+    .footer-1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1020px){
+    .payme-home{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-bott-box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-links{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    // .contact-box{
+    //     display: flex;
+    //     flex-wrap: wrap;
+    // }
+}
+
+
+@media (max-width: 850px){
+    .group-1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
