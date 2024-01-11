@@ -196,6 +196,7 @@ body {
           display: flex;
           justify-content: space-between;
           align-items: center;
+          border: 2px solid red;
 
           .hero-1 {
             margin-bottom: 60px;
@@ -747,6 +748,7 @@ body {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        
     }
 
     // .contact-box{
@@ -755,6 +757,24 @@ body {
     // }
 }
 
+@media (max-width: 900px){
+    .logo-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .inter-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .wrapper-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .info-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
 @media (max-width: 850px){
     .group-1{

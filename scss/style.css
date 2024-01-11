@@ -179,6 +179,7 @@ body main .hero .hero-box .hero-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 2px solid red;
 }
 body main .hero .hero-box .hero-links .hero-1 {
   margin-bottom: 60px;
@@ -667,6 +668,24 @@ body .footer-bott .footer-bott-box .footer-2-4 button {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+  }
+}
+@media (max-width: 900px) {
+  .logo-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .inter-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .wrapper-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .info-box {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 850px) {
